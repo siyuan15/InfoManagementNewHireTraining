@@ -1,6 +1,10 @@
+
+
 # InfoManagementNewHireTraining [![red](https://img.shields.io/badge/knowledge-is%20power-red.svg)](https://github.com/unofficialoraclecloudhub/InfoManagementNewHireTraining)
 
 IM hub Training repo prepared by Restonhub IM team
+
+<img src="common/logo-new-v2.svg" align="right"/>
 
 
 ## About 
@@ -23,3 +27,4 @@ do get confuse please let us know or submit a pull request :heart:
 ## Acknowledgements 
 * [http://shields.io/](http://shields.io/)
 * [Uncle Larry](https://en.wikipedia.org/wiki/Larry_Ellison)
+
