@@ -1,8 +1,8 @@
-<img src="common/logo-new-v2.svg" align="right" style="height: 6em;"/>
-
 # InfoManagementNewHireTraining [![red](https://img.shields.io/badge/knowledge-is%20power-red.svg)](https://github.com/unofficialoraclecloudhub/InfoManagementNewHireTraining)
 
 IM hub Training repo prepared by Restonhub IM team
+
+<img src="common/logo-new-v2.svg" align="right" style="height: 6em;"/>
 
 ## About 
 
