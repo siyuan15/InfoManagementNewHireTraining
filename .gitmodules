@@ -1,0 +1,3 @@
+[submodule "autonomous-campaign"]
+	path = autonomous-campaign
+	url = https://github.com/unofficialoraclecloudhub/autonomous-campaign.git

@@ -12,6 +12,12 @@ the tricks and techniques they will need to hold off the constant onslaught of d
 If you want to learn about managing data on Oracle cloud, feel free to follow along! 
 
 
+### Our Workshops
+We've got a different workhsop for each of the pillars of Information Management
+- Autonomous Data Warehouse Cloud 
+- 
+
+
 ## Getting Started 
 
 These tutorials will assume you have an Oracle Cloud account. If you don't, you can create a trial account 
