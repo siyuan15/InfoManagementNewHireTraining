@@ -52,6 +52,8 @@ This workshop is a submodule (basically a clone) of a workshop that our team
 put together for the release of Oracle's Autonomous Data Warehouse. Here we 
 cover the basics of setting up ADWCS.  
 In the future we'd like to explore a few more features of ADWCS, particularly ML. 
+* What, Why, and How of ADWCS
+* 
 
 ### Big Data Cloud 
 This one is the fun one! David Bayard of Oracle has done a great job with his 
@@ -81,6 +83,10 @@ own data mangement stack on Oracle's technologies
 These tutorials will assume you have an Oracle Cloud account. If you don't, you can create a trial account 
 [here](https://cloud.oracle.com/tryit). If you're a new-hire (or have a Oracle Cloud SE on hand) ask them and they'll help 
 you get set up. 
+
+
+Once you've got your cloud environment you're ready to get started. 
+Go ahead to [welcome-to-im](/welcome-to-im) to get started:exclamation:
 
 Even if you're untechnical this content should not be too difficult to follow. If you 
 do get confused please let us know or submit an issue :heart: 
