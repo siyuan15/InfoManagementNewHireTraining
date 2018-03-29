@@ -38,9 +38,14 @@ Over the next 2 days we are going to show you some cool features of Oracle Datab
 * In-Memory Data 
 * Application Express (APEX)
 * New features in 12C and 18C 
+* [OAA](http://www.oracle.com/technetwork/database/options/advanced-analytics/overview/index.html)
 
 ### Exadata Cloud Service
-TODO:(danny)
+Getting ahold of Exadata cloud environments is tricky so we're just going 
+to do a knowledge dump on you. 
+* What is Exadata?
+* Why do I care? 
+* How do I work it? 
 
 ### Autonomous Data Warehouse Cloud Service 
 This workshop is a submodule (basically a clone) of a workshop that our team 
