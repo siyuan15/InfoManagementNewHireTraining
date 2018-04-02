@@ -15,10 +15,11 @@ Here we've collected the creme-de-la-creme of workhsops to get you up and runnin
 - Exadata Cloud Service 
 - Autonomous Data Warehouse Cloud Service 
 - Big Data Cloud 
-- Event Hub Cloud Service
-- Golden Gate Cloud Service
+- Data Integration
 - Data Science (with a focus on ML) on Oracle Cloud
 - Data Management Red Stack 
+- Object Storage
+- Cloud Basics
 
 
 ### Database Cloud Service Workshop
@@ -62,11 +63,11 @@ journeys (currently the first three
 cover BDC) so we've again borrowed heavily. David keeps these up to date 
 so the journeys are a good BDC reference. 
 
-### Event Hub Cloud Service
-TODO:(tejus)(stuti)
+## Data Integration
+Oracle offers several tools to integrate data including 
+* [Golden Gate]()
+* [Data Integration Process Cloud]()
 
-### Golden Gate Cloud Service
-TODO:(tejus)
 
 ### Data Science (with a focus on ML) on Oracle Cloud
 Oracle offers plenty of technologies for data science. We'll try to cover most of them :) 
@@ -86,7 +87,8 @@ you get set up.
 
 
 Once you've got your cloud environment you're ready to get started. 
-Go ahead to [welcome-to-im](/welcome-to-im) to get started:exclamation:
+Go ahead to [welcome-to-im](/welcome-to-im) to get started
+[![get started](common/start-button.svg)](/welcome-to-im)
 
 Even if you're untechnical this content should not be too difficult to follow. If you 
 do get confused please let us know or submit an issue :heart: 

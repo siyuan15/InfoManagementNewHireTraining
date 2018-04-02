@@ -23,3 +23,6 @@ community help stackoverflow
 
 [Oracle Learning Library](http://t.co/xrMccADQpS) - 
 mooc sql course 
+
+[chrome://net-internals/#proxy](chrome://net-internals/#proxy) - 
+network proxy http-proxy vpn

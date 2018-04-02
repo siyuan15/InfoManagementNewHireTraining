@@ -122,10 +122,17 @@ to see the latest portfolio)
 1. Give a few of the selling points for this service
 
 
-## Series 2 - Object Store
-Oracle's object storage 
+## Series 2 - Oracle Cloud Infrastructure (OCI) Storage - Object Store 
+[Oracle's object storage](https://docs.us-phoenix-1.oraclecloud.com/Content/Object/Concepts/objectstorageoverview.htm)  
+Object storage is pretty simple - think of it like a filesystem in the cloud. 
+our object storage infrasctucture is build off of 
+[OpenStack Swift](https://docs.openstack.org/swift/latest/)* (an
+opensource, distributed object/blob store) and we even have our own 
+[supported version](https://www.oracle.com/linux/openstack/index.html)
+
+*this might only be true in OCI-Classic :grey_question:
 #### Directions
-1. 
+TODO:(CY)
 
 ## Series 3 - DBCS
 [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database) 
@@ -139,14 +146,13 @@ to size or demo this.
 More Oracle Database!
 
 #### Directions
-1. 
+1. TODO:(danny)
 
 ## Series 5 - ADWCS
 Once more over Oracle Database. 
 
 #### Directions
 1. 
-
 
 ## Series 6 - Advanced Analytics - ORAAH, ORE, ODM, Spatial & Graph
 
