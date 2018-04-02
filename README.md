@@ -87,8 +87,11 @@ you get set up.
 
 
 Once you've got your cloud environment you're ready to get started. 
-Go ahead to [welcome-to-im](/welcome-to-im) to get started
-[![get started](common/start-button.svg)](/welcome-to-im)
+Go ahead to [welcome-to-im](/welcome-to-im) to get started  
+
+<p align="center">
+  <a href="/welcome-to-im"><img alt="get started" width="200" src="common/start-button.svg" /></a> [1]
+</p>
 
 Even if you're untechnical this content should not be too difficult to follow. If you 
 do get confused please let us know or submit an issue :heart: 
@@ -97,4 +100,4 @@ do get confused please let us know or submit an issue :heart:
 * [http://shields.io/](http://shields.io/)
 * [Uncle Larry](https://en.wikipedia.org/wiki/Larry_Ellison)
 * [Oracle's Learning Library](https://github.com/oracle/learning-library)
-
+* [1] https://commons.wikimedia.org/wiki/File:PlayStation_button_Start.svg
