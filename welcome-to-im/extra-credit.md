@@ -7,10 +7,11 @@ to make it easier to find? Add it and give us a pull request!
 
 
 ### How to use this page
-\<CTRL\>+F and type what you want to learn. 
+`<CTRL>+F` and type what you want to learn. 
 
-### A ficticious example 
-[A Resource](#) - tags associated with this resource
+### An example 
+[wikipedia.org/wiki/Oracle_Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation) 
+\- wikipedia Oracle 
 
 ----
 
