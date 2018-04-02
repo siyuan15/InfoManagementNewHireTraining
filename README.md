@@ -65,9 +65,9 @@ so the journeys are a good BDC reference.
 
 ## Data Integration
 Oracle offers several tools to integrate data including 
-* [Golden Gate]()
-* [Data Integration Process Cloud]()
-
+* [Golden Gate](http://www.oracle.com/technetwork/middleware/goldengate/overview/index.html)
+* [Data Integration Process Cloud](https://cloud.oracle.com/en_US/data-integration-platform)
+* [Event Hub](https://cloud.oracle.com/en_US/event-hub)
 
 ### Data Science (with a focus on ML) on Oracle Cloud
 Oracle offers plenty of technologies for data science. We'll try to cover most of them :) 
@@ -79,6 +79,17 @@ and [R](http://www.oracle.com/technetwork/database/database-technologies/r/r-ent
 ### Data Management Red Stack 
 Examples of how these services can be deployed together and a challange to build your 
 own data mangement stack on Oracle's technologies
+
+### Object Storage
+A quick tutorial on the best ways to work with 
+[OCI Storage](https://cloud.oracle.com/storage)
+
+### Basics
+All of the tools you'll use everyday, including
+* GitHub & Documentation
+* Virtual Machines (VMs)
+* Linux
+* Networking 
 
 ## Getting Started 
 These tutorials will assume you have an Oracle Cloud account. If you don't, you can create a trial account 

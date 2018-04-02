@@ -35,7 +35,7 @@ If not, we'll just use a local VM.
 1. Set up and log into your VM!
 
 
-### OS Basic :shipit:
+### OS Basics :shipit:
 You're going to get to know linux :sparkles:
 ![](../common/what-are-clouds-made-of.jpg) [1]  
 Some things we expect you to know: 
