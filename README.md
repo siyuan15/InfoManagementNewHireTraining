@@ -15,10 +15,11 @@ Here we've collected the creme-de-la-creme of workhsops to get you up and runnin
 - Exadata Cloud Service 
 - Autonomous Data Warehouse Cloud Service 
 - Big Data Cloud 
-- Event Hub Cloud Service
-- Golden Gate Cloud Service
+- Data Integration
 - Data Science (with a focus on ML) on Oracle Cloud
 - Data Management Red Stack 
+- Object Storage
+- Cloud Basics
 
 
 ### Database Cloud Service Workshop
@@ -38,15 +39,22 @@ Over the next 2 days we are going to show you some cool features of Oracle Datab
 * In-Memory Data 
 * Application Express (APEX)
 * New features in 12C and 18C 
+* [OAA](http://www.oracle.com/technetwork/database/options/advanced-analytics/overview/index.html)
 
 ### Exadata Cloud Service
-TODO:(danny)
+Getting ahold of Exadata cloud environments is tricky so we're just going 
+to do a knowledge dump on you. 
+* What is Exadata?
+* Why do I care? 
+* How do I work it? 
 
 ### Autonomous Data Warehouse Cloud Service 
 This workshop is a submodule (basically a clone) of a workshop that our team 
 put together for the release of Oracle's Autonomous Data Warehouse. Here we 
 cover the basics of setting up ADWCS.  
 In the future we'd like to explore a few more features of ADWCS, particularly ML. 
+* What, Why, and How of ADWCS
+* 
 
 ### Big Data Cloud 
 This one is the fun one! David Bayard of Oracle has done a great job with his 
@@ -55,11 +63,11 @@ journeys (currently the first three
 cover BDC) so we've again borrowed heavily. David keeps these up to date 
 so the journeys are a good BDC reference. 
 
-### Event Hub Cloud Service
-TODO:(tejus)(stuti)
-
-### Golden Gate Cloud Service
-TODO:(tejus)
+## Data Integration
+Oracle offers several tools to integrate data including 
+* [Golden Gate](http://www.oracle.com/technetwork/middleware/goldengate/overview/index.html)
+* [Data Integration Process Cloud](https://cloud.oracle.com/en_US/data-integration-platform)
+* [Event Hub](https://cloud.oracle.com/en_US/event-hub)
 
 ### Data Science (with a focus on ML) on Oracle Cloud
 Oracle offers plenty of technologies for data science. We'll try to cover most of them :) 
@@ -72,10 +80,29 @@ and [R](http://www.oracle.com/technetwork/database/database-technologies/r/r-ent
 Examples of how these services can be deployed together and a challange to build your 
 own data mangement stack on Oracle's technologies
 
+### Object Storage
+A quick tutorial on the best ways to work with 
+[OCI Storage](https://cloud.oracle.com/storage)
+
+### Basics
+All of the tools you'll use everyday, including
+* GitHub & Documentation
+* Virtual Machines (VMs)
+* Linux
+* Networking 
+
 ## Getting Started 
 These tutorials will assume you have an Oracle Cloud account. If you don't, you can create a trial account 
 [here](https://cloud.oracle.com/tryit). If you're a new-hire (or have a Oracle Cloud SE on hand) ask them and they'll help 
 you get set up. 
+
+
+Once you've got your cloud environment you're ready to get started. 
+Go ahead to [welcome-to-im](/welcome-to-im) to get started  
+
+<p align="center">
+  <a href="/welcome-to-im"><img alt="get started" width="200" src="common/start-button.svg" /></a> [1]
+</p>
 
 Even if you're untechnical this content should not be too difficult to follow. If you 
 do get confused please let us know or submit an issue :heart: 
@@ -84,4 +111,4 @@ do get confused please let us know or submit an issue :heart:
 * [http://shields.io/](http://shields.io/)
 * [Uncle Larry](https://en.wikipedia.org/wiki/Larry_Ellison)
 * [Oracle's Learning Library](https://github.com/oracle/learning-library)
-
+* [1] https://commons.wikimedia.org/wiki/File:PlayStation_button_Start.svg
