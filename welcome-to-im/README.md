@@ -74,15 +74,19 @@ Bash will be your friend and so will python.
 Each of these steps should be done with one line of code :wink:
 1. Download this file from the command line 
 1. Get the number of lines
-1. Find a folder named `advanced_analytics`
+1. Find a folder named `advanced_analytics` (if you've installed DVD, else find surprise us)
 1. Use vim to add an alias to your `~/.bashrc`
 
 
 ### Networking - SSH, Public/Private key encryption, VNC
 Hopefully you'll all already be framiliar with these techniques, 
 and got to use VNC (maybe without knowing it) to log onto your Ravello
-instance. 
-![](../common/public-private-key-encryption.jpg) [2]  
+instance.  
+Public/Private key encryptions is pretty simple when it comes down to it... 
+Your computer has a private key and the server has a public key. You use your 
+private key to log into and communicate with the server. 
+![](../common/public-private-key-encryption.jpg) 
+[2] (Image you're Alice and your VM is Bob) 
 * SSH clients (for Windows - on 'nix it's build in)
     * the standard is [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
     * I prefer [mobaxterm](https://mobaxterm.mobatek.net/)
@@ -113,10 +117,12 @@ IDE, text editors, DVD
 If you're on IM or Analytics you'll be using SQLDeveloper often
 
 ### Data Management tools on Oracle Cloud
-Have you used any of these? Let us know! (Remember 
+Have you used any of these? Let us know! (Remember, 
 you can check [cloud.oracle.com](https://cloud.oracle.com/home) 
-to see the latest portfolio)
+to see the latest portfolio)  
 #### Directions
+1. Pop quiz - what's the 
+[difference between OCI and OCI-C](https://stackoverflow.com/q/49633591/5568528)?
 1. Pick a service
 1. Tell us when & why to use it
 1. Give a few of the selling points for this service
@@ -132,7 +138,20 @@ opensource, distributed object/blob store) and we even have our own
 
 *this might only be true in OCI-Classic :grey_question:
 #### Directions
-TODO:(CY)
+1. Make sure you've got an Oracle Cloud account
+1. Create a container in Object Storage
+1. Get the API endpoints - 
+    * Authorization
+    * REST API
+    * Permanent REST API
+1. Take a look at the different methods to up/down-load data from storage. 
+Note the use of acronyms. 
+    * [OCI-CLI](https://github.com/oracle/oci-cli)
+    * [FTMCLI](https://docs.oracle.com/en/cloud/iaas/storage-cloud/csclr/general-syntax-ftm-cli-commands.html#GUID-6E51B750-1958-4FB3-98BB-AF24ECC882D7)
+    * [REST API](https://docs.oracle.com/en/cloud/iaas/storage-cloud/ssapi/toc.htm)
+    * [Web UI](https://youtu.be/oHg5SJYRHA0)
+1. Upload something through the REST API
+1. Download that something with the FTMCLI 
 
 ## Series 3 - DBCS
 [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database) 
@@ -140,49 +159,45 @@ is unarguably one of the top databases in the world. It also happens to be
 Oracle's "bread and butter" so expect to get a lot of requests from customers 
 to size or demo this. 
 #### Directions
-1. 
+1. TODO:(sblack)
 
 ## Series 4 - ExaData 
 More Oracle Database!
-
 #### Directions
 1. TODO:(danny)
 
 ## Series 5 - ADWCS
 Once more over Oracle Database. 
-
 #### Directions
-1. 
+1. Head over to 
+[https://unofficialoraclecloudhub.github.io/autonomous-campaign/workshops/adwc-trialcampaigns/](https://unofficialoraclecloudhub.github.io/autonomous-campaign/workshops/adwc-trialcampaigns/) 
+and follow the instructions! Make sure to ask for help from or give help to your neighbor :wave:
 
 ## Series 6 - Advanced Analytics - ORAAH, ORE, ODM, Spatial & Graph
 
 #### Directions
-1. 
+1. TODO:(sblack4)
 
 
 ## Series 7 - Data Integration - Golden Gate, DIPC, EHCS
 What is data integration? 
-
 #### Directions
-1. 
+1. TODO:(sblack4 / tejus) 
 
 
 ## Series 8 - BDC - Hadoop, Spark, Hive, Zeppelin
 :dancer: Oracles Big Data Cloud :raised_hands:
-
 #### Directions
-1. 
+1. TODO:
 
 
 ## Series 9 - Data Science - data retrieval, exploration, cleaning, and model buildling 
 #### Directions
-1. 
-
+1. TODO:
 
 ## Final - Putting it all together - *challange* :grin:
-
 #### Directions
-1. 
+1. TODO:(stuti)
 
 
 # References 
