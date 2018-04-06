@@ -50,7 +50,7 @@ Some things we expect you to know:
 1. Open a terminal in your VM
 1. Become `root` - `sudo su`
 1. Navigate to your home directory - `cd ~`
-1.
+1. TODO: come up with a good series of steps to assist in learning filesystem permisssions and package managers 
 
 
 ### Linux & Bash
@@ -77,7 +77,7 @@ Each of these steps should be done with one line of code :wink:
 1. Download this file from the command line
 1. Get the number of lines
 1. Find a folder named `advanced_analytics` (if you've installed DVD, else find surprise us)
-1. Use vim to add an alias to your `~/.bashrc`
+1. Add an alias to your `~/.bashrc`
 
 
 ### Networking - SSH, Public/Private key encryption, VNC
@@ -208,7 +208,6 @@ OAA is really an umbrella term for a few different products:
     
 
 
-<<<<<<< HEAD
 ## Series 7 - BDC - Hadoop, Spark, Hive, Zeppelin
 :dancer: Oracles Big Data Cloud :raised_hands:
 #### Directions
@@ -221,12 +220,6 @@ OAA is really an umbrella term for a few different products:
 [journey2-new-data-lake](https://millerhoo.github.io/journey2-new-data-lake/workshops/journey2-new-data-lake/?page=README.md)
 and follow the instructions to get started!
 1. look back at the [github repository](https://github.com/oracle/learning-library/tree/master/workshops/journey2-new-data-lake) there's some interesting files in files folder
-=======
-## Series 7 - Data Integration - Golden Gate, DIPC, EHCS
-What is data integration?
-#### Directions
-1. TODO:(sblack4 / tejus)
->>>>>>> 381e4ac9764b9e8ba1e88e255409d9784f2d30cb
 
 
 
@@ -250,15 +243,13 @@ and find three datasets from the list below
 1. (optional) Deploy [Zeppelin Notebooks on Oracle Database](https://www.progress.com/blogs/using-a-jdbc-driver-with-apache-zeppelin)  
     - (bonus points) [setup authentication](https://zeppelin.apache.org/docs/0.7.2/security/authentication.html)
 
-<<<<<<< HEAD
 ## Series 9 - Data Science - data retrieval, exploration, cleaning, and model buildling 
 Here's we'll do data science applied to a production system, not simply to find cool facts! We saw how easy it is to make a machine learning model, and even run a data pipeline with Oracle Advanced Analytics (Series 6) but now how do we build a *good* machine learning model - and then apply it to new data programmatically?
-=======
-## Series 9 - Data Science - data retrieval, exploration, cleaning, and model buildling
->>>>>>> 381e4ac9764b9e8ba1e88e255409d9784f2d30cb
 #### Directions
 1.  Log back into your Big Data Console (in BDC) and create a new Zeppelin notebook. 
 1. Hopefully you have all gotten a tast of how cool [Apache Spark](https://spark.apache.org/) is.
+
+TODO:: build a cool data science workshop. I'm thinking spark to manipulate data and create model. then python http server to take inputs and return predictions
 
 ## Final - Putting it all together - *challange* :grin:
 #### Directions

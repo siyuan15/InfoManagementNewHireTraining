@@ -54,7 +54,9 @@ put together for the release of Oracle's Autonomous Data Warehouse. Here we
 cover the basics of setting up ADWCS.  
 In the future we'd like to explore a few more features of ADWCS, particularly ML. 
 * What, Why, and How of ADWCS
-* 
+* Why querying the object store is such a big deal
+* SQL in Zeppelin Notebooks 
+* ODM and other database features
 
 ### Big Data Cloud 
 This one is the fun one! David Bayard of Oracle has done a great job with his 
