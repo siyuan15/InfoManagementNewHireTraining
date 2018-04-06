@@ -222,7 +222,6 @@ and follow the instructions to get started!
 1. look back at the [github repository](https://github.com/oracle/learning-library/tree/master/workshops/journey2-new-data-lake) there's some interesting files in files folder
 
 
-
 ## Series 8 - Data Integration - Golden Gate, DIPC, EHCS
 What is data integration? To answer this, we are going to give you a challnge. 
 Data integration, data engineering, and data wrangling are all hot terms for an array of loosely related activities that share one common goal: to combine data. 
@@ -250,6 +249,7 @@ Here's we'll do data science applied to a production system, not simply to find 
 1. Hopefully you have all gotten a tast of how cool [Apache Spark](https://spark.apache.org/) is.
 
 TODO:: build a cool data science workshop. I'm thinking spark to manipulate data and create model. then python http server to take inputs and return predictions
+
 
 ## Final - Putting it all together - *challange* :grin:
 #### Directions
