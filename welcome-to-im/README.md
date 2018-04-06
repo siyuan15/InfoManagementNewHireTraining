@@ -21,6 +21,8 @@ documentation [Coursera](https://www.coursera.org/),
 pull request. 
     * If you need help ask anybody:raising_hand:, and if you finish quickly 
     get to know your neighbor (and maybe help them:exclamation:)
+1. (optional) make a new github repository and keep all of your code from this series in it, practice makes perfect (and you'll be able to see exactly what you did later)!
+
 
 If you see more opportunities to contribute to these docs please 
 feel free. Small improvements build over time and are excelent practice :+1:
@@ -159,12 +161,26 @@ is unarguably one of the top databases in the world. It also happens to be
 Oracle's "bread and butter" so expect to get a lot of requests from customers 
 to size or demo this. 
 #### Directions
-1. TODO:(sblack)
+1. Pick a feature and explain it to us [http://www.oracle.com/technetwork/database/index.html](http://www.oracle.com/technetwork/database/index.html)
+1. Now, basics - instantiation, backup, and APEX 
+[https://oracle.github.io/learning-library/workshops/dbcs/](https://oracle.github.io/learning-library/workshops/dbcs/)
+1. In-memory! :fire: 
+[https://oracle.github.io/learning-library/workshops/dbcs-in-memory/](https://oracle.github.io/learning-library/workshops/dbcs-in-memory/)
+1. Montor the database and the OS with [dbaas_monitor](https://docs.oracle.com/en/cloud/paas/database-dbaas-cloud/csdbi/access-dbaas-monitor.html)
+1. Working with PL/SQL in [Enterprise Monitor](https://docs.oracle.com/en/cloud/paas/database-dbaas-cloud/csdbi/access-em-database-express-12c.html)
+1. Create a connection to your database [with SQL Developer](https://docs.oracle.com/en/cloud/paas/database-dbaas-cloud/csdbi/connect-db-using-sql-developer.html)
 
 ## Series 4 - ExaData 
 More Oracle Database!
 #### Directions
-1. TODO:(danny)
+ExaData environments are hard to get ahold of - and essentially are just 
+really powerful Oracle Databases. To give you a better understanding of what 
+ExaData is and what we do day-to-day we're just going to present a few videos
+our team made about ExaData and show you the Sizing Tool. 
+1. (you have to be on VPN for this) see our 
+[otube video](https://otube.oracle.com/media/ExaCS+and+OEM/0_l3ul5dzg/3422) 
+on ExaData Cloud Service and EM
+1. Danny will present to you his video (not on Otube) and the Sizing Tool 
 
 ## Series 5 - ADWCS
 Once more over Oracle Database. 
@@ -174,26 +190,61 @@ Once more over Oracle Database.
 and follow the instructions! Make sure to ask for help from or give help to your neighbor :wave:
 
 ## Series 6 - Advanced Analytics - ORAAH, ORE, ODM, Spatial & Graph
-
+Our team is new to 
+[Oracle Advanced Analytics (OAA)](http://www.oracle.com/technetwork/database/options/advanced-analytics/overview/index.html). 
+A good reference for the product is a blog post written by Charlie Berger 
+[A Simple Guide to Oracle's Machine Leaerning and Advanced Analytics](https://blogs.oracle.com/datamining/a-simple-guide-to-oracle%E2%80%99s-machine-learning-and-advanced-analytics)
+OAA is really an umbrella term for a few different products: 
+* [Oracle R AA for Hadoop (ORAAH)](http://www.oracle.com/technetwork/database/database-technologies/bdc/r-advanalytics-for-hadoop/overview/index.html)
+* [Oracle Data Mining (ODM)](http://www.oracle.com/technetwork/database/options/advanced-analytics/odm/overview/index.html)
+* [Oracle R Enterprise (ORE)](http://www.oracle.com/technetwork/database/database-technologies/r/r-enterprise/overview/index.html)
+* [Oracle Machine Learning](http://www.oracle.com/technetwork/database/options/oml/overview/index.html)
 #### Directions
-1. TODO:(sblack4)
+1.  Head to our workshop and follow the instructions-
+[oracle-advanced-analytics](https://sblack4.github.io/oracle-advanced-analytics/workshops/oracle-advanced-analytics)
+    
 
 
-## Series 7 - Data Integration - Golden Gate, DIPC, EHCS
-What is data integration? 
-#### Directions
-1. TODO:(sblack4 / tejus) 
-
-
-## Series 8 - BDC - Hadoop, Spark, Hive, Zeppelin
+## Series 7 - BDC - Hadoop, Spark, Hive, Zeppelin
 :dancer: Oracles Big Data Cloud :raised_hands:
 #### Directions
-1. TODO:
+1. Get pumped. Working with BDC is fun :joy:
+1. Take a look at the code for [journey2-new-data-lake](https://github.com/millerhoo/journey2-new-data-lake)
+    * this is Paul Miller's branch and is typically the most up to date
+    * this workshop provides great tips and tricks for working with BDC
+    * I refer to this workshop almost every day
+1. Visit the github pages site for 
+[journey2-new-data-lake](https://millerhoo.github.io/journey2-new-data-lake/workshops/journey2-new-data-lake/?page=README.md)
+and follow the instructions to get started!
+1. look back at the [github repository](https://github.com/oracle/learning-library/tree/master/workshops/journey2-new-data-lake) there's some interesting files in files folder
 
+
+
+## Series 8 - Data Integration - Golden Gate, DIPC, EHCS
+What is data integration? To answer this, we are going to give you a challnge. 
+Data integration, data engineering, and data wrangling are all hot terms for an array of loosely related activities that share one common goal: to combine data. 
+
+#### Directions
+1. Head over to the interweb and find your favorite data repository (I think 
+[Kaggle](https://www.kaggle.com/datasets) is cool but 
+there's a good 
+[list of them](https://github.com/awesomedata/awesome-public-datasets))
+and find three datasets from the list below
+    - One `json` dataset
+    - One `csv` dataset
+    - One dataset of another format (`xml`, `html`, `parquet`, `avro` come to minds as ones you want to know about)
+1. Using BDC (from Series 8) load that data into [Hive Tables](https://hive.apache.org/) 
+1. Connect the data to show something cool (it doesn't need to be revolutionary some of my [favorite statistical facts](http://www.tylervigen.com/spurious-correlations) are spurious)
+1. Write a clean, presentable [Zeppelin](https://zeppelin.apache.org/) notebook showing how you did this, with generous use of those cool sql-to-visualization cells
+1. Connect your datasource to [DVD](http://www.oracle.com/technetwork/middleware/oracle-data-visualization/downloads/oracle-data-visualization-desktop-2938957.html) and integrate it with yet another datasource with a [Data Flow](https://docs.oracle.com/middleware/bidv1221/desktop/BIDVD/GUID-DC0CDEDF-6F36-45BC-BA8F-E2D3196D5D86.htm#BIDVD-GUID-DC0CDEDF-6F36-45BC-BA8F-E2D3196D5D86) and make a visualization
+1. (optional) Deploy [Zeppelin Notebooks on Oracle Database](https://www.progress.com/blogs/using-a-jdbc-driver-with-apache-zeppelin)  
+    - (bonus points) [setup authentication](https://zeppelin.apache.org/docs/0.7.2/security/authentication.html)
 
 ## Series 9 - Data Science - data retrieval, exploration, cleaning, and model buildling 
+Here's we'll do data science applied to a production system, not simply to find cool facts! We saw how easy it is to make a machine learning model, and even run a data pipeline with Oracle Advanced Analytics (Series 6) but now how do we build a *good* machine learning model - and then apply it to new data programmatically?
 #### Directions
-1. TODO:
+1.  Log back into your Big Data Console (in BDC) and create a new Zeppelin notebook. 
+1. Hopefully you have all gotten a tast of how cool [Apache Spark](https://spark.apache.org/) is.
 
 ## Final - Putting it all together - *challange* :grin:
 #### Directions
