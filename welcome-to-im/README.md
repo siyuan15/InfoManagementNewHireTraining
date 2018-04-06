@@ -130,7 +130,7 @@ to see the latest portfolio)
 
 ## Series 2 - Oracle Cloud Infrastructure (OCI) Storage - Object Store
 
-To get started, check out our [Object Storage Workshop](https://github.com/unofficialoraclecloudhub/InfoManagementNewHireTraining/new/master/object-storage)
+To get started, check out our [Object Storage Workshop](https://github.com/unofficialoraclecloudhub/InfoManagementNewHireTraining/blob/master/object-storage/ObjectStorageLab.md)
 
 [Oracle's object storage](https://docs.us-phoenix-1.oraclecloud.com/Content/Object/Concepts/objectstorageoverview.htm)  
 Object storage is pretty simple - think of it like a filesystem in the cloud.
