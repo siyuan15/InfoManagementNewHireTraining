@@ -103,7 +103,7 @@ Once you've got your cloud environment you're ready to get started.
 Go ahead to [welcome-to-im](/welcome-to-im) to get started  
 
 <p align="center">
-  <a href="/welcome-to-im"><img alt="get started" width="200" src="common/start-button.svg" /></a> [1]
+  <a href="/welcome-to-im/README.md"><img alt="get started" width="200" src="common/start-button.svg" /></a> [1]
 </p>
 
 Even if you're untechnical this content should not be too difficult to follow. If you 
