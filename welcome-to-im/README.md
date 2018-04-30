@@ -32,6 +32,10 @@ Hopefully you've got your
 [ravello account](https://cloud.ravellosystems.com/) set up.
 If not, we'll just use a local VM.
 
+#### To Use Ravello
+1. Make sure you have activated your Ravello account. You can do this by clicking 'Activate' in your Ravello activation email.
+2. Go to [Ravello](https://cloud.oracle.com/en_US/ravello) and click on 'User Log In'. Now, you should be able to log in using your Oracle email address.
+
 #### Directions
 1. Find an [Oracle Linux](https://www.oracle.com/linux/index.html) image
 1. Set up and log into your VM!

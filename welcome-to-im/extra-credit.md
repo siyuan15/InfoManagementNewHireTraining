@@ -26,3 +26,5 @@ mooc sql course
 
 [chrome://net-internals/#proxy](chrome://net-internals/#proxy) - 
 network proxy http-proxy vpn
+
+http://neuralnetworksanddeeplearning.com/chap1.html - Neural Networks
