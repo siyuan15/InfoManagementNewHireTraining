@@ -195,6 +195,12 @@ Now that you have a private / public key combo , you must add it to OCI Console:
   - Select Add Public Key and add the public key you copied from the command line interface.
 - You should now be able to access your object storage from the command line.
 
+- If for whatever reason you still cannot connect, try running the following command and follow the prompts:
+
+```
+oci setup autocomplete
+```
+
 
 ### **STEP 4**: Interact with object storage.
 
