@@ -36,6 +36,29 @@ If not, we'll just use a local VM.
 1. Make sure you have activated your Ravello account. You can do this by clicking 'Activate' in your Ravello activation email.
 2. Go to [Ravello](https://cloud.oracle.com/en_US/ravello) and click on 'User Log In'. Now, you should be able to log in using your Oracle email address.
 
+#### Steps for creating a VM in an application in Ravello
+1. After you are logged in to Ravello, click on "Learn" on the bottom left side of the home page. Then, `Show me how` -> `Take the tour` -> `Next` -> `VMs` -> keep clicking next (read before you click next) until it says new sample application is created.
+2. Now go to `Applications` on the left tab and select the created application. Go to `VMs` tab on the application details page and click on + before `Actions` tab.
+3. Select the Ubuntu VM - the one which doesn't have the qemu-kvm in its description.
+4. If you get an error, click on the error and go to General tab of the VM and in the Cloud Init Configuration section, select create a key pair option from the dropdown or select an existing private key if you have one. Click on "Save" and then "Update".
+5. The status of your VM may be "VM is starting" for a few minutes before it is ready.
+6. Once the VM is ready, you can click on "Console" to the bottom right of the VM page to log in to the VM or you can use SSH. You need to know the password for the user `ubuntu` if you log into through the console. So, first you need to SSH and change password of the user `ubuntu` and then you can cotinue using the SSH or console.
+7. To  log in using SSH for Windows users, download [MobaXTerm](https://mobaxterm.mobatek.net/download.html) and follow the installation steps.
+8. After the installation, click on "Session" -> "SSH"
+   1. `Basic SSH Settings` tab
+      1. Give your VM's IP in Remote Host field of Basic SSH Settings. (The IP of your VM can be found out in the Summary tab of your VM page in Ravello page.)
+      2. Check `Specify username` and give `ubuntu` in the textfield next to it.
+      3. Make sure the port is `22` (this is the port for SSH).
+   2. `Advanced SSH Settings` tab
+      1. Check `Use private key` and select the private key file whch you have downloaded when you created the pair when you had the error while creating the VM.
+   3. `Network Settings` tab - this is when you are on VPN. Skip this step if you are on Ethernet.
+      1. Select `Proxy type` to `http` and in the `host` field, give `www-proxy.us.oracle.com`. Whe you are off VPN and on Ethernet, change `Proxy type` to `None`.
+9. Now, you successfully logged in to the VM.
+10. Change to `root` by giving `sudo -s`.
+11. Execute `passwd ubuntu` and give new password for the user. Retype the password when prompted.
+12. Now, you can use the console or this SSH session for the user `ubuntu`.
+
+
 #### Directions
 1. Find an [Oracle Linux](https://www.oracle.com/linux/index.html) image
 1. Set up and log into your VM!
