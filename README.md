@@ -68,7 +68,7 @@ so the journeys are a good BDC reference.
 ## Data Integration
 Oracle offers several tools to integrate data including 
 * [Golden Gate](http://www.oracle.com/technetwork/middleware/goldengate/overview/index.html)
-* [Data Integration Process Cloud](https://cloud.oracle.com/en_US/data-integration-platform)
+* [Data Integration Platform Cloud](https://cloud.oracle.com/en_US/data-integration-platform)
 * [Event Hub](https://cloud.oracle.com/en_US/event-hub)
 
 ### Data Science (with a focus on ML) on Oracle Cloud
