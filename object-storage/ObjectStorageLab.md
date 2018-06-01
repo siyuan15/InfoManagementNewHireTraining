@@ -175,7 +175,8 @@ The CLI is a small footprint tool that you can use by itself, or with the Consol
 
 #### Refer to this guide:
 
-**USER OCID** = located on your user information page in OCI console
+**USER OCID** = located on your user information page in OCI console (ldentity -> Users (left side) -> your-ID -> **Show**
+)
 
 **TENANCY OCID** = Located in the bottom left of your OCI console
 
